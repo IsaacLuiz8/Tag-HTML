@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags</title>
+    <!--Mudando o fundo do CSS--> <style> 
+        body{
+           
+            
+            background-color: rgba(11, 110, 240, 0.39);
+        }
+    </style>
+
+<!--<link rel="stylesheet" href="../css/styles.css"> background-image: url(648145.jpg);-->
+</head>
+<body>
+    <h1>Tags</h1>
+
+    <h2>Italico</h2>
+    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at sed ut ullam corrupti asperiores, quae, placeat nulla qui vel voluptatem, <br> ab incidunt ducimus! Temporibus eos voluptatem ea. Deserunt, odio. <!--i--> </i>
+    <br>
+    <br>
+    <em>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit at sed ut ullam corrupti asperiores, quae, placeat nulla qui vel voluptatem, <br> ab incidunt ducimus! Temporibus eos voluptatem ea. Deserunt, odio. <!--em--> </em></p>
+
+    <h2>Negrito</h2>
+    <p>
+        <strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, vel iusto! Natus nesciunt ea fuga esse sequi quasi voluptate, <br> qui quam vitae ex culpa optio ratione in eligendi eveniet. <!--strong--> </strong>
+        <br>
+        <br>
+        <b>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit, vel iusto! Natus nesciunt ea fuga esse sequi quasi voluptate, <br> qui quam vitae ex culpa optio ratione in eligendi eveniet. <!--b--> </b>
+    </p>
+    <h2>Texto marcado</h2>
+    <p> 
+        <mark>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta possimus maxime laudantium maiores qui, <br>aspernatur nostrum, aperiam magni id dolores recusandae minima asperiores? </mark>
+        <br>
+        <br>   <h2>Texto com marcação de cor diferente</h2>
+        <mark style="background-color: lime;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta possimus maxime laudantium maiores qui, <br>aspernatur nostrum, aperiam magni id dolores recusandae minima asperiores?</mark>
+    </p>
+    <h2>Texto deletado</h2>
+    <p>
+        <del>Deve se excluido para indicar ser lido, mas não considerado</del>
+     </p>
+     <h2>Texto sublinhado</h2>
+   
+        texto por aqui<p>
+    <h2>Texto Sobrescito</h2>
+    <p>Para inserir x<sup>20</sup>+2</p>
+
+    <h2>Texto Subescrito</h2>
+    <p>Para inserir H<sub>2</sub>O</p>
+
+    <h1>Outras formatações</h1>
+    <h2>codigo-fonte / pre-formatação</h2>
+    <p>o <code>elementarista</code> era bastante esperto. <!--<code>--></p>
+<pre>
+<code>
+    num = int(input('digite um numero'))
+    if num % 2 == 0:
+    print('o numero {num} é PAR')
+    else:
+    print('o numero {num} é IMPAR')
+    fim do programa
+</code>
+</pre>
+    <h2>Citação simples</h2>
+    <p>como diria um amigo: <q>o computador é um burro muito rapido</q> <!--<q>--> </p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para leigos:</p>
+    <blockquote>
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto. <!--<blockquote>-->
+    </blockquote>
+<!--Usando o blockquote cite="", cita o autor de certo texto, musica, livro...-->
+<h2>Abreviações</h2>
+<p>Estou estundando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="cading Style Sheets">CSS</abbr>. Gostei <!--<abbr>--> </p>
+<h2>Texto invertido</h2>
+    <p><bdo dir="ltr">Estou estudando HTML</bdo> <!--<bdo dir="ltr"--> </p>
+
+<h2>Lista ordenada</h2>
+    <ol type="1">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar cafe</li>
+        <li>Sair Estudar</li>
+        <li>Dormir</li>
+    </ol>
+    <ul type="disc" ></ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Carne</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Juntando listas</h2>
+    <ol>
+        <li>Um</li>
+            <ol type="I">
+               <li>Chpper</li>
+               <li>Nav</li>
+               <li>Karl</li> 
+            </ol>
+        <ol type="A">
+            <li>Linguagens</li>
+            <li>PHP</li>
+            <li>Phyton</li>
+            <li>JavaScript</li>
+            <li>Kortlin</li>
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+    </ol>
+
+    <h2>Misturando Ul e Ol</h2>
+    <ol>
+        <li>Nintendo</li>
+        <ul>
+            <li>Mario</li>
+            <li>Ninja Gaiden</li>
+        </ul>
+    <li>PlayStation</li>
+      <ol>
+        <li>Castlevania</li>
+        <li>Ghost of Tsushima</li>
+        </ol>
+    <li>Xbox</li>
+        <ul>
+            <li>Gears</li>
+            <li>Halo</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>Html</dt> <!--Descrição-->
+    <dd>Linguagem de marcação para criação de conteúdo de um site</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para criação de design de um site</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para criação de interatividade de um site</dd>
+    </dl>
+
+    <h2>Usando Links externos</h2>
+    <p><a href="https://github.com/IsaacLuiz8">Acesse o repositório no GitHub</a></p>
+    <p>Acessse o GitHub do Gustavo Guanabara: <a href="http://gustavoguanabara.github.io/" target="_blank" rel="external">clicando aqui.</a></p>
+
+
+<h2>Colocando imagem como pano de fundo</h2>
+<p>Podemos usar "background-image: url(Opção escolhida);"
+    <br>
+    <br> Ou 
+    <br>
+    <br>
+    "background-image: url(../Downloads/imagem.jpg)" background-image: "url(../../Downloads/648145.jpg)"
+    <br>
+    Os termos "../", é usado para voltar uma pasta.
+    Os termos "../../", voltam duas pastas e assim sucessivamente.
+</p>
+
+
+
+
+
+</body>
+</html>
